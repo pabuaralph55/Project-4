@@ -45,7 +45,7 @@ const operate= {
 
   '-': (firstNumber, secondNumber) => subtract(firstNumber, secondNumber),
 
-  // '=': (firstNumber, secondNumber) => secondNumber,
+  '=': (firstNumber, secondNumber) => secondNumber,
 };
 
 function useOperator(operator) {
